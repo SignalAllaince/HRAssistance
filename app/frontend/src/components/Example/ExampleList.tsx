@@ -9,11 +9,14 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "What do i need to do as a new employee in Signal Alliance Technology Holding (SATH)?",
+        value: "What do i need to do as a new employee in Signal Alliance Technology Holding (SATH)?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    { text: "What happens in an Employee Performance Review Session?", value: "What happens in an Employee Performance Review Session?" },
+    {
+        text: "What are the Performance Eligibility Requirements for the Rewards policy?",
+        value: "What are the Performance Eligibility Requirements for the Rewards policy?"
+    }
 ];
 
 interface Props {

@@ -25,10 +25,10 @@ if (-not $pythonCmd) {
 Write-Host 'Creating python virtual environment "scripts/.venv"'
 Start-Process -FilePath ($pythonCmd).Source -ArgumentList "-m venv ./scripts/.venv" -Wait -NoNewWindow
 
-$venvPythonPath = "./scripts/.venv/scripts/python.exe"
+$venvPythonPath = "./scripts/.venv/Scripts/python.exe"
 if (Test-Path -Path "/usr") {
   # fallback to Linux venv path
-  $venvPythonPath = "./scripts/.venv/bin/python"
+  $venvPythonPath = "./scripts/.venv/Scripts/python"
 }
 
 Write-Host 'Installing dependencies from "requirements.txt" into virtual environment'

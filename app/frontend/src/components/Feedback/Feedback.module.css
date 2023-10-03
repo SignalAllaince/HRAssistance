@@ -1,0 +1,26 @@
+/* feedback.module.css */
+.feedbackButton {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.feedbackButton:hover {
+    background-color: #005a9e;
+}
+
+.closeButton {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.closeButton:hover {
+    background-color: #999;
+}

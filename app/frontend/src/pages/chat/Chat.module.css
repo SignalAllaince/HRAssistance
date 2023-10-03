@@ -113,3 +113,15 @@
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+.feedbackBtn {
+    background: transparent;
+    padding: 1rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+}
+.connieIcon {
+    /* width: 15%; */
+    height: 25%;
+}
